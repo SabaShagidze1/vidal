@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+}
+
+.landing-container {
+}
+
+.navbar-brand {
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+.navbar-brand img {
+  align-self: center;
+  justify-self: center;
+  width: 70px;
+}
+.header {
+  padding: 0 1rem;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  background: rgba(39, 39, 39, 1);
+}
+.navbar a {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.navbar a:hover {
+  color: #fff;
+  text-shadow: 0px 0px 4px #fff;
+}
+
+/* Landing */
+.landing-container {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(39, 39, 39, 1),
+      rgba(39, 39, 39, 0.35)
+    ),
+    url("../images/Ford.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+}
+.landing-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.landing-logo {
+  width: 20rem;
+}
+/* Local Navigation */
+.local-navigation {
+  display: flex;
+  margin-bottom: 5rem;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+.local-navbar {
+  list-style: none;
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.local-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgba(39, 39, 39, 1);
+  font-weight: bold;
+}
+
+/* Top Container */
+.top-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top-cont-inner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+  width: 90%;
+}
+.top-cont-left {
+  width: 50%;
+}
+.top-cont-left img {
+  width: 100%;
+}
+.top-cont-right {
+  width: 50%;
+}
+.top-cont-right-text h1 {
+  font-weight: bolder;
+}
+.top-cont-right-text span {
+  font-size: 1.2rem;
+  color: #4c6e9e;
+}
+.top-inner-one {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.top-cont-right-text {
+  color: rgba(39, 39, 39, 1);
+}
+.top-inner-one img {
+  /* width: 30rem; */
+}
+
+/* Mid Container */
+.mid-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(17, 17, 17, 0.586),
+      rgba(17, 17, 17, 0.586)
+    ),
+    url("../images/office.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20rem;
+}
+.mid-cont-inner {
+  width: 90%;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+}
+
+/* Mid Container Two */
+.mid-container-two {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.mid-cont-two-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.mid-cont-two-text {
+  text-align: center;
+  width: 90%;
+}
+.cont-two-last-p {
+  color: #4c6e9e;
+  font-weight: bold;
+}
+.mid-cont-two-vid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-header-text {
+  font-weight: bold;
+}
+
+/* Conclusion */
+.conclusion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.conclusion-card-holder {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.conclusion-card {
+  background: rgba(39, 39, 39, 1);
+  width: 20rem;
+  height: 25rem;
+}
+
+/* Footer */
+.bottom {
+  background: rgba(39, 39, 39, 1);
+}
+.footer-inner {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Top Cards */
+.top-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.top-card {
+  width: 22rem;
+  height: 28rem;
+  background: rgba(39, 39, 39, 1);
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: -6px 15px 4px rgba(39, 39, 39, 1);
+  cursor: pointer;
+}
+.top-card-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+  gap: 1rem;
+  text-shadow: 0 0 5px #fff;
+}
+
+.top-card-header {
+  font-size: 1.3rem;
+}
+.top-card-paragraph {
+  font-size: 0.8rem;
+}
+
+/* Top Paragraph Container */
+.top-paragraph-container {
+  padding-top: 4rem;
+  text-align: center;
+}
+.top-paragraph-container h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.top-paragraph-container p {
+  font-size: 1.2rem;
+}
+
+/* Contact */
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+footer {
+  margin-top: 2rem;
+}
