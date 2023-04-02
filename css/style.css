@@ -324,6 +324,200 @@ footer {
   margin-top: 2rem;
 }
 
+/* Doc */
+.doc-top-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  height: fit-content;
+  padding-top: 4rem;
+  /* background: linear-gradient(rgba(39, 39, 39, 1), #fff); */
+  /* background: rgba(39, 39, 39, 1); */
+}
+
+.doc-top-header-wrap {
+  width: 70%;
+}
+
+.doc-top-header-wrap h1 {
+  font-size: 6rem;
+  /* color: #fff; */
+  text-shadow: 0 0 8px rgba(39, 39, 39, 1);
+}
+.doc-top-para-wrap {
+  color: rgba(39, 39, 39, 1);
+  width: 70%;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px rgba(39, 39, 39, 1);
+}
+.doc-top-para-wrap span {
+  color: #4c6e9e;
+  text-shadow: 0 0 5px #4c6e9e;
+}
+.doc-top-sec-cont {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: fit-content;
+}
+
+.doc-top-sec-cont h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.doc-second-left {
+  text-align: right;
+  background: linear-gradient(
+      to bottom,
+      rgba(39, 39, 39, 0.7),
+      rgba(39, 39, 39, 0.7)
+    ),
+    url("../images/mechanic.jpg");
+  height: 240px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3rem;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+  width: 90%;
+  gap: 0.5rem;
+}
+
+.doc-second-right {
+  width: 90%;
+  text-align: left;
+  background: linear-gradient(
+      to bottom,
+      rgba(39, 39, 39, 0.7),
+      rgba(39, 39, 39, 0.7)
+    ),
+    url("../images/office2.jpg");
+  height: 240px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  padding: 0 3rem;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+  gap: 0.5rem;
+}
+.doc-top-sec-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
+}
+#docsecfirst {
+  background: linear-gradient(
+      to bottom,
+      rgba(39, 39, 39, 0.7),
+      rgba(76, 110, 158, 0.)
+    ),
+    url("../images/parts.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* abt thrd */
+.doc-top-thrd-cont {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.thrd-cont-header-wrap {
+  width: 90%;
+}
+.thrd-cont-header-wrap h3 {
+  font-size: 3rem;
+  width: 50%;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(39, 39, 39, 1);
+}
+.thrd-cont-header-wrap p {
+  font-size: 1.5rem;
+  width: 85%;
+  text-shadow: 0 0 5px rgba(39, 39, 39, 1);
+}
+.thrd-cont-card-wrap {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.thrd-card-wrap-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.thrd-card-wrap-bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.abt-card {
+  width: 23rem;
+  height: 26rem;
+  background: rgba(39, 39, 39, 1);
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1rem;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+.abt-card:hover {
+  transform: translateY(-10px);
+}
+.abt-card h4 {
+  font-size: 2.5rem;
+}
+.abt-card p {
+  font-size: 1rem;
+}
+#abtcardOne {
+  background: linear-gradient(
+      140deg,
+      rgba(39, 39, 39, 0.8),
+      rgba(76, 110, 158, 0.8)
+    ),
+    url("../images/abtcards/bicycle2.jpg");
+}
+#abtcardTwo {
+  background: linear-gradient(
+      140deg,
+      rgba(39, 39, 39, 0.8),
+      rgba(76, 110, 158, 0.8)
+    ),
+    url("../images/abtcards/bike.jpg");
+}
+#abtcardThree {
+  background: linear-gradient(
+      140deg,
+      rgba(39, 39, 39, 0.8),
+      rgba(76, 110, 158, 0.8)
+    ),
+    url("../images/abtcards/car.jpg");
+}
 @media only screen and (max-width: 1000px) {
   .mid-container-two {
     flex-direction: column !important;
