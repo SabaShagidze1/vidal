@@ -17,7 +17,7 @@
 .header {
   padding: 0 1rem;
   width: 100%;
-  display: flex !important;
+  /* display: flex !important; */
   align-items: center;
   background: rgba(39, 39, 39, 1);
 }
@@ -30,6 +30,10 @@
   color: #fff;
   text-shadow: 0px 0px 4px #fff;
 }
+.lang-change img {
+  width: 35px;
+  height: 20px;
+}
 
 /* Landing */
 .landing-container {
@@ -40,12 +44,25 @@
       rgba(39, 39, 39, 1),
       rgba(39, 39, 39, 0.35)
     ),
-    url("../images/Ford.jpg");
+    url("../images/hero2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 50rem;
 }
+
+#documantation-landing {
+  background: linear-gradient(
+      to bottom,
+      rgba(39, 39, 39, 1),
+      rgba(39, 39, 39, 0.35)
+    ),
+    url("../images/hero3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .landing-inner {
   display: flex;
   justify-content: center;
@@ -59,6 +76,7 @@
 .local-navigation {
   display: flex;
   margin-bottom: 5rem;
+  margin-top: 2rem;
   justify-content: center;
   align-items: center;
   height: 4rem;
@@ -147,7 +165,7 @@
 .mid-container-two {
   padding-top: 2rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 1rem;
@@ -156,6 +174,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 100%;
   align-items: center;
 }
 .mid-cont-two-text {
@@ -167,10 +186,14 @@
   font-weight: bold;
 }
 .mid-cont-two-vid {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.mid-cont-two-vid iframe {
+  width: 100% !important;
+  height: 25rem !important;
 }
 .body-header-text {
   font-weight: bold;
@@ -299,4 +322,59 @@ input[type="submit"]:hover {
 }
 footer {
   margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .mid-container-two {
+    flex-direction: column !important;
+  }
+  .mid-container-two iframe {
+    height: 500px !important;
+  }
+  .top-cont-inner {
+    flex-direction: column;
+  }
+  .top-cont-left {
+    width: 100%;
+  }
+  .top-cont-right {
+    width: 100%;
+    text-align: center;
+  }
+  .mid-cont-paragraph-text {
+    font-size: 0.6rem !important;
+  }
+  .top-card {
+    width: 90%;
+    height: 18rem;
+  }
+  .navbar a {
+    font-size: 15px !important;
+  }
+  .local-navbar {
+    width: 100%;
+    padding: 0;
+  }
+  .navbar-nav {
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+  }
+  .navbar-toggler-icon {
+    color: #fff !important;
+  }
+  .custom-toggler,
+  .navbar-toggler {
+    border-color: #fff !important;
+    color: transparent !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .mid-container-two iframe {
+    height: 300px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .mid-container-two iframe {
+    height: 200px !important;
+  }
 }
