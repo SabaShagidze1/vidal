@@ -423,7 +423,7 @@ footer {
   background: linear-gradient(
       to bottom,
       rgba(39, 39, 39, 0.7),
-      rgba(76, 110, 158, 0.)
+      rgba(76, 110, 158, 0)
     ),
     url("../images/parts.jpg");
   background-position: center;
@@ -508,7 +508,7 @@ footer {
       rgba(39, 39, 39, 0.8),
       rgba(76, 110, 158, 0.8)
     ),
-    url("../images/abtcards/bike.jpg");
+    url("../images/abtcards/carbike.jpg");
 }
 #abtcardThree {
   background: linear-gradient(
@@ -516,7 +516,7 @@ footer {
       rgba(39, 39, 39, 0.8),
       rgba(76, 110, 158, 0.8)
     ),
-    url("../images/abtcards/car.jpg");
+    url("../images/abtcards/truck.jpg");
 }
 @media only screen and (max-width: 1000px) {
   .mid-container-two {
