@@ -229,10 +229,32 @@
 }
 .footer-inner {
   color: #fff;
+  text-shadow: 0 0 5px #fff;
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
+  padding-top: 1rem;
+  height: 15rem;
 }
-
+.footer-one-one a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+.footer-one-one {
+  width: 20rem;
+  text-align: center;
+}
+.footer-one-one p {
+  font-size: 0.7rem;
+}
+.footer-head {
+  font-size: 1rem !important;
+  color: #4c6e9e;
+  text-shadow: 0 0 5px #4c6e9e;
+  font-weight: bold;
+}
 /* Top Cards */
 .top-card-container {
   display: flex;
@@ -462,6 +484,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .thrd-card-wrap-bot {
   display: flex;
@@ -485,6 +508,18 @@ footer {
   cursor: pointer;
   transition: all 0.7s;
 }
+.abt-card-two {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  background: linear-gradient(
+      140deg,
+      rgba(39, 39, 39, 0.8),
+      rgba(76, 110, 158, 0.8)
+    ),
+    url("../images/abtcards/plane2.jpg");
+  background-position: center !important;
+}
 .abt-card:hover {
   transform: translateY(-10px);
 }
@@ -494,6 +529,7 @@ footer {
 .abt-card p {
   font-size: 1rem;
 }
+
 #abtcardOne {
   background: linear-gradient(
       140deg,
@@ -517,6 +553,80 @@ footer {
       rgba(76, 110, 158, 0.8)
     ),
     url("../images/abtcards/truck.jpg");
+}
+
+.doc-top-cont-four {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dtopcf-header h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(39, 39, 39, 1);
+}
+.dtopcf-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.benefit-card {
+  background: rgba(39, 39, 39, 1);
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+  padding: 1rem;
+  border-radius: 30px;
+  width: 27rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.benefit-card:hover {
+  transform: translateY(-15px);
+}
+.benefit-card h4 {
+  font-size: 2rem;
+}
+.benefit-card p {
+  font-size: 0.8rem;
+}
+
+.doc-video-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.doc-vid-cont-header h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(39, 39, 39, 1);
+}
+.doc-vid-cont-inner {
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+.doc-vid-cont-inner p {
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(39, 39, 39, 1);
+}
+.doc-vid-cont-inner span {
+  color: #4c6e9e;
+  text-shadow: 0 0 5px #4c6e9e;
 }
 @media only screen and (max-width: 1000px) {
   .mid-container-two {
