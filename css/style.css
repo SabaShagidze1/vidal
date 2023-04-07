@@ -445,7 +445,7 @@ footer {
   background: linear-gradient(
       to bottom,
       rgba(39, 39, 39, 0.7),
-      rgba(76, 110, 158, 0)
+      rgba(39, 39, 39, 0.7)
     ),
     url("../images/parts.jpg");
   background-position: center;
